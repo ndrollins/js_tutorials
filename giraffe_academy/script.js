@@ -63,7 +63,7 @@ num1 = parseFloat(num1);
 num2 = parseInt(num2);
 document.write(num1 + num2);
 
-*/
+
 
 document.write("<h2 style='color:blue;'>script.js file"); 
 let fruits = ["Apples", "pears", "peaches"];
@@ -75,3 +75,17 @@ let bint = "6! 7! 3! 8! 2!";
 bint = bint.split("!");
 document.write("<br>");
 document.write(bint);
+
+
+function sayHi(name, age){
+	document.write("<h1>Hello " + name + "</h1>");
+	document.write("<p>You are " + age + "</p>");
+}
+sayHi("same", "35");
+*/
+function addition(num1, num2){
+	return num1 + num2;
+	
+}
+let sum = addition(76, 84);
+document.write(sum);
